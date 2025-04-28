@@ -1,0 +1,60 @@
+### Contexto
+Você irá me ajudar a determinar qual é o case de referência mais apropriado para cada entrada de:
+- **Company Name for Emails** (nome da empresa)
+- **Keywords** (palavras-chave relacionadas à atividade)
+
+### O que será fornecido
+- Uma lista de cases de sucesso (veja o JSON abaixo) com seus respectivos segmentos e artigos corretos.
+
+### Sua tarefa
+1. Com base no **[coluna nome da empresa]** e nas **[coluna de palavras-chave]**, escolha o case de referência mais compatível, considerando principalmente o segmento de atuação descrito.
+2. Corrija a capitalização do nome da empresa se necessário (cada palavra começando com letra maiúscula).
+3. Retorne **exclusivamente** o artigo + nome da empresa de referência.
+
+### Formato obrigatório da resposta
+- Sempre responda apenas com: **artigo + nome da empresa de referência**  
+- Exemplos corretos:
+  - `a [exemplo 1]`
+  - `a [exemplo 2`
+  - `o [exemplo 3]`
+
+### Instruções importantes
+- **NUNCA** utilize aspas (" ") ou qualquer outro caractere especial.
+- **NÃO** adicione comentários, explicações ou qualquer texto além do artigo + nome da empresa.
+- Se não for possível encontrar um case compatível minimamente pelo segmento, **responda com `a Adcos`**.
+- Use o **artigo correto** ("o", "a" ou "as") conforme definido no JSON de referência.
+- **NÃO** escolha "a Adcos" para todos os casos — use apenas se realmente não houver compatibilidade.
+
+### Json de cases de referência
+[
+  {
+    "nome": "Vivara",
+    "artigo": "a Vivara",
+    "segmento": "Joias de luxo em ouro 18k e pedras preciosas, incluindo alianças, anéis, colares e brincos, com foco no público feminino"
+  },
+  {
+    "nome": "Monte Carlo",
+    "artigo": "a Monte Carlo",
+    "segmento": "Joias finas de luxo com design exclusivo, produzidas em ouro 18k, prata 925 e pedras preciosas (anéis, brincos, colares e pulseiras)"
+  },
+  {
+    "nome": "Michael Kors",
+    "artigo": "a Michael Kors",
+    "segmento": "Moda e acessórios de luxo femininos, incluindo bolsas de grife, roupas, calçados e relógios sofisticados"
+  },
+  {
+    "nome": "Lojas Quero Quero",
+    "artigo": "as Lojas Quero Quero",
+    "segmento": "Materiais de construção, reforma e decoração, além de eletrodomésticos e móveis para casa, focados no segmento residencial"
+  },
+  {
+    "nome": "Adcos",
+    "artigo": "a Adcos",
+    "segmento": "Dermocosméticos para cuidados com a pele, incluindo produtos anti-idade para pele madura, proteção solar e tratamentos dermatológicos"
+  },
+  {
+    "nome": "Espaço Smart",
+    "artigo": "o Espaço Smart",
+    "segmento": "Materiais para construção a seco, como sistemas steel frame, drywall e telhas shingle, voltados para obras rápidas e duráveis"
+  }
+]
