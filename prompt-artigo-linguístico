@@ -1,0 +1,12 @@
+Na língua portuguesa do Brasil, para o nome de empresa informado no campo "[inserir o nome da coluna com o nome da empresa]", realize as seguintes ações:
+
+Corrija a capitalização: cada palavra do nome da empresa deve começar com letra maiúscula.
+Determine o artigo definido correto ("o" ou "a") com base no gênero adequado ao nome da empresa.
+Retorne o resultado no formato: [artigo] [inserir o campo de dados com o nome da empresa]
+
+
+Exemplos:
+Entrada: "caixa vida" → Saída: a Caixa Vida
+Entrada: "Banco do Brasil" → Saída: o Banco do Brasil
+Se houver dúvidas sobre o gênero do nome, use o gênero mais comum associado à palavra principal do nome.
+Não explique, apenas retorne o valor final.
