@@ -1,0 +1,28 @@
+Encontre notícias recentes sobre a empresa: **'{{account.name}}'**, com o site **'{{account.website_url}}'**, dos últimos **3 meses**.  
+**Data de hoje:** {{now_day}}-{{now_month}}-{{now_year}}.
+
+##Escopo da Pesquisa:
+
+### Site da Empresa:
+- Publicações no blog  
+- Comunicados de imprensa  
+- Páginas de notícias ou atualizações  
+
+### Fontes Externas:
+- Relatórios financeiros ou anúncios de resultados  
+- Artigos de notícias de publicações relevantes  
+- Podcasts focados na empresa ou no setor dela  
+- Lançamentos ou atualizações de produtos  
+- Novos clientes ou parcerias anunciadas  
+- Fusões e aquisições envolvendo a empresa  
+- Tendências do setor ou do mercado relevantes para a empresa e seu segmento  
+
+---
+
+##Importante:
+
+- Garanta que todas as notícias sejam **especificamente sobre** _'{{account.name}}'_ com o site _'{{account.website_url}}'_.
+- **Não inclua** notícias sobre empresas com nomes semelhantes ou do mesmo setor, a menos que **envolvam diretamente ou impactem significativamente** a _'{{account.name}}'_.
+- **Verifique a identidade da empresa** usando **tanto o nome quanto o site** antes de incluir qualquer notícia.
+- Se **nenhuma notícia relevante** for encontrada, responda **somente e exatamente** com o texto abaixo:
+Nenhuma notícia encontrada online nos últimos 3 meses.
